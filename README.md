@@ -47,13 +47,13 @@ governing permissions and limitations under the Licence.
 [npm-url]: https://npmjs.org/package/isaac-wrapper.parser
 [npm-image]: https://img.shields.io/npm/v/isaac-wrapper.parser.svg?style=flat-square
 
-[travis-url]: https://travis-ci.org/irontec/isaac-wrapper.parser
-[travis-image]: https://img.shields.io/travis/irontec/isaac-wrapper.parser.svg?style=flat-square
+[travis-url]: https://travis-ci.org/irontec/node-isaac-parser
+[travis-image]: https://img.shields.io/travis/irontec/node-isaac-parser.svg?style=flat-square
 
-[coveralls-url]: https://coveralls.io/r/irontec/isaac-wrapper.parser
-[coveralls-image]: https://img.shields.io/coveralls/irontec/isaac-wrapper.parser.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/r/irontec/node-isaac-parser
+[coveralls-image]: https://img.shields.io/coveralls/irontec/node-isaac-parser.parser.svg?style=flat-square
 
-[depstat-url]: https://david-dm.org/irontec/isaac-wrapper.parser
-[depstat-image]: https://david-dm.org/irontec/isaac-wrapper.parser.svg?style=flat-square
+[depstat-url]: https://david-dm.org/irontec/node-isaac-parser
+[depstat-image]: https://david-dm.org/irontec/node-isaac-parser.svg?style=flat-square
 
 [download-badge]: http://img.shields.io/npm/dm/isaac-wrapper.parser.svg?style=flat-square
