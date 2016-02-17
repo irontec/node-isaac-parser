@@ -4,6 +4,12 @@
     "node": true,
     "es6": true
   },
-  "rules": {
+  "globals": {
+    "describe": false,
+    "before": false,
+    "it": false
+  },
+  "ecmaFeatures": {
+    "modules": true
   }
 }

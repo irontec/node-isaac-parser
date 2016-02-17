@@ -72,8 +72,13 @@
   },
   "dependencies": {
     "debug": "^2.2.0",
+    "lodash.assign": "^4.0.3",
+    "lodash.foreach": "^4.1.0",
     "lodash.get": "^3.7.0",
+    "lodash.includes": "^4.1.0",
+    "lodash.isarray": "^4.0.0",
     "lodash.isundefined": "^3.0.1",
+    "lodash.startswith": "^4.0.0",
     "node-uuid": "^1.4.7"
   },
   "config": {

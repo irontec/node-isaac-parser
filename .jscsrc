@@ -1,0 +1,14 @@
+{
+  "preset": "node-style-guide",
+  "requireTrailingComma": false,
+  "requireCurlyBraces": [
+    "if",
+    "else",
+    "for",
+    "while",
+    "do",
+    "try",
+    "catch"
+  ],
+  "disallowTrailingWhitespace": "ignoreEmptyLines"
+}

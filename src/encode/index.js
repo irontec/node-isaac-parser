@@ -1,20 +1,19 @@
-'use strict';
 
 import get from 'lodash.get';
 import isUndefined from 'lodash.isundefined';
 
-import actions from './actions';
+import encoders from './encoders';
 
 /**
  * @return {String}
  */
 export default function encode() {
 
-  const action = [].shift.apply(arguments);
-  const encoder = get(actions, action);
+  const encoderName = [].shift.apply(arguments);
+  const encoder = get(encoders, encoderName);
 
   if (isUndefined(encoder)) {
-    throw new Error('Missing ' + action + ' encoder');
+    throw new Error('Missing ' + encoderName + ' encoder');
   }
 
   return encoder.apply(null, arguments);
