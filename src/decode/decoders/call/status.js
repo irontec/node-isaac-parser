@@ -30,6 +30,7 @@ function getProps(isExternal, data) {
   }
 
   return {
+    isaacId: data[refIdKey],
     ivozId: data[refIdKey],
     queue: data[defaultKeys.queue],
     platform: data[defaultKeys.platform],

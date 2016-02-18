@@ -23,6 +23,7 @@ export default test('isaacWrapperParser:decode:call', (t) => {
     isaacWrapperParser.decode('EXTERNALCALLSTATUS idPrueba plataformaPrueba colaPrueba 220 RINGING'),
     {
       event: 'call.status',
+      isaacId: 'idPrueba',
       ivozId: 'idPrueba',
       platform: 'plataformaPrueba',
       queue: 'colaPrueba',
