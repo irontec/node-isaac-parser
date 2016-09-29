@@ -11,5 +11,9 @@ export default function getQueuesLeaveMessage(queueName) {
     throw new Error('Missing parameter: queueName on encoder.queues.getQueuesLeavesMessage');
   }
 
+  if (typeof queueName === 'object') {
+    queueName = queueName.queue;
+  }
+
   return ['QUEUELEAVE', queueName].join(' ');
 }
