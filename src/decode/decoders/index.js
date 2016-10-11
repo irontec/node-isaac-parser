@@ -7,6 +7,7 @@ import agent from './agent';
 import device from './device';
 import queues from './queues';
 import call from './call';
+import pong from './pong';
 
 const serializers = assign(
   {},
@@ -14,7 +15,8 @@ const serializers = assign(
   agent,
   device,
   queues,
-  call
+  call,
+  pong
 );
 
 module.exports = serializers;
