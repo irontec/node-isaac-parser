@@ -1,10 +1,8 @@
 
-function pong() {
-  return {
-      event: 'isaac.pong',
-      status: 'success',
-      message: 'Ping Pong!'
-  };
-}
+import pong from './pong';
 
-export default pong;
+const pongMain = {
+  PONG: pong
+};
+
+export default pongMain;
