@@ -17,5 +17,5 @@ export default function getRedirectMessage(refId, extension) {
     throw new Error('Missing parameter: extension on encoder.call.getRedirectMessage');
   }
 
-  return ['REDIRECTUID', refId, 'agentes', extension].join(' ');
+  return ['REDIRECTUID', refId, 'custom-tasgo-redirect', extension].join(' ');
 }
